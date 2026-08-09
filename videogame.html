@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videogame e-commerce</title>
+    <link rel="stylesheet" href="videogame.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anta&family=Orbitron:wght@400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+    <header>
+        <a href="videogame.html"><img id="logo" src="images/logo.png" alt="logo"></a>
+        <form id="search-form" role="search">
+            <input type="search" placeholder="Cerca...">
+            <button type="submit">Cerca</button>
+        </form>
+        <a href="#"><img src="icons/bag.png" alt="" class="icon-small"></a>
+        <label for="nav-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">PC</a></li>
+            <li><a href="#">Playstation</a></li>
+            <li><a href="#">Xbox</a></li>
+            <li><a href="#">Nintendo</a></li>
+            <li><a href="#">Novità</a></li>
+            <li><a href="#">Offerte</a></li>
+            <li><a href="#">Preordini</a></li>
+            <li><a href="#">Usato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- BANNER -->
+
+        <div id="banner-header">
+            <div class="testo-scorrevole">Solo per il mese di agosto sconti fino al 50% su tutti i titoli Nintendo</div>
+        </div>
+
+        <!-- CAROSSELLO -->
+
+        <div class="slider-container">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <div class="image-container">
+                <!-- Slide 1 -->
+                <div class="slide">
+                    <img src="images/halo-cover.jpg" class="slider-image" />
+                    <div class="slide-overlay">
+                        <h2>Halo Infinite</h2>
+                        <p>Continua a giocare alla saga leggendaria</p>
+                        <button type="button" class="slide-btn">Scopri di più</button>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <img src="images/beast-of-reincarnation-cover.jpg" class="slider-image" />
+                    <div class="slide-overlay">
+                        <h2>Beast of Reincarnation</h2>
+                        <p>Avventura epica in un mondo fantasy</p>
+                        <button type="button" class="slide-btn">Scopri di più</button>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="images/assassin-s-creed-black-flag-resynced-pc-cover.jpg" class="slider-image" />
+                    <div class="slide-overlay">
+                        <h2>Assassin's Creed Black Flag</h2>
+                        <p>Diventa il pirata più temuto dei Caraibi</p>
+                        <button type="button" class="slide-btn">Scopri di più</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="button-container">
+                <label for="slide1" class="slider-change"></label>
+                <label for="slide2" class="slider-change"></label>
+                <label for="slide3" class="slider-change"></label>
+            </div>
+        </div>
+
+        <div class="main-title">
+            <span class="dot"></span>
+            <h2>I titoli del momento per PS5</h2>
+        </div>
+
+        <div class="card-container">
+            <div class="card card-ps5">
+                <img src="images/beast-of-reincarnation-game.jpg" alt="Beast of Reincarnation cover">
+                <h2>Beast of Reincarnation</h2>
+                <p>Avventura epica in un mondo fantasy</p>
+                <button type="button">59,99 €</button>
+            </div>
+            <div class="card card-ps5">
+                <img src="images/assassin-s-creed-game.jpg" alt="Assassin's Creed Black Flag cover">
+                <h2>Assassin's Creed Black Flag</h2>
+                <p>Diventa il pirata più temuto dei Caraibi</p>
+                <button type="button">59,99 €</button>
+            </div>
+            <div class="card card-ps5">
+                <img src="images/halo-game.png" alt="Halo Infinite cover">
+                <h2>Halo <br> Infinite</h2>
+                <p>Continua a giocare alla saga leggendaria</p>
+                <button type="button">59,99 €</button>
+            </div>
+            <div class="card card-ps5">
+                <img src="images/crimson-desert-game.jpg" alt="Crimson Desert cover">
+                <h2>Crimson <br> Desert</h2>
+                <p>Combatti ed splora un mondo fantasy oscuro</p>
+                <button type="button">59,99 €</button>
+            </div>
+        </div>
+
+        <button type="button" class="generic-button">Scopri tutti i titoli</button>
+
+        <div class="main-title">
+            <span class="dot"></span>
+            <h2>Mese di sconti sui prodotti Nintendo</h2>
+        </div>
+
+        <div class="card-container">
+            <div class="card card-nintendo">
+                <img src="images/pokopia-game.png" alt="Pokopia cover">
+                <div class="sconto">-50%</div>
+                <h2>Pokemon <br> Pokopia</h2>
+                <p>Crea un mondo fantastico con i pokemon</p>
+                <button type="button"><del>59,99 €</del>&emsp;29,99 €</button>
+            </div>
+            <div class="card card-nintendo">
+                <img src="images/mario-kart-game.png" alt="Mario Kart cover">
+                <div class="sconto">-50%</div>
+                <h2>Super Mario <br> Kart</h2>
+                <p>Power-up, derapate e caos su quattro ruote</p>
+                <button type="button"><del>59,99 €</del>&emsp;29,99 €</button>
+            </div>
+            <div class="card card-nintendo">
+                <img src="images/metroid-game-avif.png" alt="Metroid cover">
+                <div class="sconto">-50%</div>
+                <h2>Metroid Prime 4: Beyond</h2>
+                <p>Sopravvivi nello spazio tra segreti alieni</p>
+                <button type="button"><del>59,99 €</del>&emsp;29,99 €</button>
+            </div>
+            <div class="card card-nintendo">
+                <img src="images/fire-emblem.png" alt="Fire Emblem cover">
+                <div class="sconto">-50%</div>
+                <h2>Fire Emblem: Fortune's Weave</h2>
+                <p>Ogni mossa decide il destino del tuo esercito</p>
+                <button type="button"><del>59,99 €</del>&emsp;29,99 €</button>
+            </div>
+        </div>
+
+        <button type="button" class="generic-button">Scopri tutti i titoli</button>
+
+        <div id="newsletter-container">
+            <div id="newsletter-caption">
+                <h2>Iscriviti alla nostra newsletter</h2>
+                <p>Ricevi tutte le ultime novità e offerte esclusive</p>
+            </div>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Inserisci la tua email" required>
+                <button type="submit" class="generic-button">Iscriviti</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>&copy; 2026 Cozy Games. Tutti i diritti riservati.</p>
+        </div>
+        <div>
+            <a href="#">Privacy Policy</a> | <a href="#">Termini di servizio</a>
+        </div>
+        <div>
+            <a href="#"><img src="icons/facebook.png" alt="" class="icon-small"></a>
+            <a href="#"><img src="icons/instagram.png" alt="" class="icon-small"></a>
+            <a href="#"><img src="icons/whatsapp.png" alt="" class="icon-small"></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
