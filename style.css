@@ -34,7 +34,7 @@ body {
     border-radius: 50%;
     background-color: var(--secondary-color);
     flex-shrink: 0;
-    box-shadow: 0 0 10px var(--secondary-color), inset 0 0 10px var(--secondary-color);
+    box-shadow: 0 0 5px var(--secondary-color), inset 0 0 5px var(--secondary-color);
     animation: pulse 2s ease-in-out infinite;
 }
 
@@ -87,7 +87,7 @@ body {
     font-family: var(--font-secondary);
     font-size: medium;
     border: 1px solid var(--primary-color);
-    box-shadow: 0 0 10px var(--primary-color), inset 0 0 10px var(--primary-color);
+    box-shadow: 0 0 5px var(--primary-color), inset 0 0 5px var(--primary-color);
     font-weight: 700;
     border-radius: 6px;
     text-decoration: none;
@@ -303,7 +303,7 @@ nav ul {
     border: 1px solid var(--primary-color);
     border-radius: 10px 50px 10px 50px;
     overflow: hidden;
-    box-shadow: 0 0 10px var(--primary-color), inset 0 0 10px var(--primary-color);
+    box-shadow: 0 0 5px var(--primary-color), inset 0 0 5px var(--primary-color);
 }
 
 /* Ogni immagine del carosello occupa 1/3 del contenitore */
@@ -349,7 +349,7 @@ il contenitore delle slide orizzontalmente.*/
 }
 
 .slider-change:hover {
-    box-shadow: 0 0 10px var(--primary-color), inset 0 0 10px var(--primary-color);
+    box-shadow: 0 0 5px var(--primary-color), inset 0 0 5px var(--primary-color);
 }
 
 /* Overlay con testo e bottone */
@@ -390,7 +390,7 @@ il contenitore delle slide orizzontalmente.*/
     color: var(--background-color);
     font-family: var(--font-secondary);
     border: 1px solid var(--primary-color);
-    box-shadow: 0 0 10px var(--primary-color), inset 0 0 10px var(--primary-color);
+    box-shadow: 0 0 5px var(--primary-color), inset 0 0 5px var(--primary-color);
     cursor: pointer;
     font-weight: 700;
     font-size: medium;
@@ -739,7 +739,7 @@ footer img:hover {
         margin-right: 5px;
         right: 10px;
         width: 90%;
-        height: 70%;
+        height: 75%;
     }
 
     .slide-overlay h2 {
