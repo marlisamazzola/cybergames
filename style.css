@@ -670,7 +670,7 @@ footer img:hover {
         justify-content: center;
         align-items: center;
         gap: 20px;
-        position: relative;
+        position: static;
     }
 
     header input {
